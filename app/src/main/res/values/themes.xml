@@ -1,0 +1,88 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Luck" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+    <!-- Colors -->
+    <color name="colorPositiveButton">@color/colorAccent</color> <!-- 修改为你希望的确定按钮文本颜色 -->
+    <color name="colorNegativeButton">@color/colorAccent</color> <!-- 修改为你希望的取消按钮文本颜色 -->
+
+    <!-- Theme for AlertDialog -->
+    <style name="AlertDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:buttonBarPositiveButtonStyle">@style/PositiveButtonStyle</item>
+        <item name="android:buttonBarNegativeButtonStyle">@style/NegativeButtonStyle</item>
+    </style>
+
+    <style name="PositiveButtonStyle" parent="Widget.AppCompat.Button.ButtonBar.AlertDialog">
+        <item name="android:textColor">@color/colorPositiveButton</item>
+    </style>
+
+    <style name="NegativeButtonStyle" parent="Widget.AppCompat.Button.ButtonBar.AlertDialog">
+        <item name="android:textColor">@color/colorNegativeButton</item>
+    </style>
+    <style name="Theme.Luck" parent="Base.Theme.Luck" />
+
+    <style name="InfoItem.Account">
+        <item name="sLeftViewWidth">110dp</item>
+        <item name="sLeftViewGravity">left_center</item>
+        <item name="sCenterViewGravity">left_center</item>
+        <item name="sCenterViewMarginLeft">25dp</item>
+        <item name="sRightTextSize">?attr/xui_config_size_content_text</item>
+        <item name="sRightViewMarginRight">10dp</item>
+        <item name="sRightIconRes">@drawable/icon_next</item>
+    </style>
+    <style name="InfoItem" parent="Container">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="sLeftViewMarginLeft">0dp</item>
+        <item name="sRightViewMarginRight">0dp</item>
+        <item name="sRightIconMarginRight">0dp</item>
+        <item name="sLeftIconMarginLeft">0dp</item>
+        <item name="sLeftTextSize">?attr/xui_config_size_content_text</item>
+        <item name="sLeftTextColor">@color/xui_config_color_title_text</item>
+        <item name="sCenterTextColor">@color/xui_config_color_black</item>
+        <item name="sRightTextColor">@color/xui_config_color_explain_text</item>
+        <item name="sRightTextSize">?attr/xui_config_size_content_text</item>
+    </style>
+    <style name="Container">
+        <item name="android:paddingStart">?attr/xui_config_content_spacing_horizontal</item>
+        <item name="android:paddingEnd">?attr/xui_config_content_spacing_horizontal</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <!-- 将布局当中统一的属性信息进行定义 -->
+    <!-- 定义首页面当中四个RadioButton的属性信息-->
+    <style name="main_rb">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:button">@null</item>
+        <item name="android:drawablePadding">2dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@drawable/main_rbtxt</item>
+    </style>
+
+    <!-- 全屏显示，无透明状态栏-->
+    <style name="TranslucentTheme" parent="AppTheme">
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <!--全屏显示，有透明的状态栏-->
+    <style name="statusBar" parent="AppTheme"></style>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Shengxiao" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.Shengxiao" parent="Base.Theme.Shengxiao" />
+</resources>

@@ -1,0 +1,120 @@
+<resources>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="text2">welcome</string>
+
+    <string-array name="sentens">
+        <item>人生这条路很长，未来星辰大海般璀璨，不必踌躇于过去的半亩方塘，那些所谓的遗憾，可能是一种成长，那些曾受过的伤，终会化作照亮前方的路。总有一天你会明白，真正治愈你的，从来都不是时间，而是你心里的那份释怀和格局，只要你的内心不慌乱，连世界都难影响你。——《人民日报》</item>
+        <item>仔细想想，我们不可能一下子变得优秀，不可能一下子就减掉肥肉，也不可能一下子就能培养出个好习惯。你会发现任何事情都需要一个过程，这个过程也是你成长进步的一部分，所以不要着急去期待那个结果，因为你只要认真对待这个过程，你期待的那个结果一定不会差的。——《人民日报》</item>
+        <item>你有不伤别人的教养，却缺少一种不被人伤害的气场。若没有人护你周全，就请以后善良中带点锋芒，为自己保驾护航。你要知道，在这个世界，你若好到毫无保留，对方就坏到肆无忌惮——杨绛</item>
+        <item>“跨过去，春天不远了，我永远不要失去发芽的心情”。而我果然就不会被寒冬与剪枝击败，虽然有时静夜想想，也会然流下泪来，但那些泪水，在一个新的春天来临时，往往成为最好的肥料。——林清玄</item>
+        <item>苦难既然把我推到了悬崖的边缘，那么就让我在这悬崖的边缘坐下来，顺便看看悬崖下的流岚雾露，唱支歌给你听。——史铁生</item>
+        <item>无论何人、无论何时、人们总要在乌云周围、寻索着浪漫的微光活下去——村上春树</item>
+        <item>珍惜你的低谷期，你会看到很多真相，时间能渡的都是愿意自渡的人，没有谁的人生一帆风顺，低谷期的苦难，就是为了积蓄力量，哪怕是裂缝里透出的光也要牢牢抓住，然后生出向死而生的勇气。——罗翔</item>
+        <item>每个人身边都有一个磁场环绕无论你在何处，磁场都会跟着你而你的磁场也吸引着磁场相同的人和事——《力量》</item>
+        <item>我们并不知晓未来会发生什么事，不知道就代表我们还有无限的可能，这亦可称为一种自由，那么祝你未来好运。——森见登美彦《四叠半时光机》</item>
+        <item>生命如此短暂我们没有时间去争吵、道歉、伤心、斤斤计较我们只有时间去爱，一切稍纵即逝。——马克· 吐温</item>
+        <item>这么多年，你一直在批评自己可也没什么效果试着认可自己，看看会发生什么——路易斯·L·海</item>
+    </string-array>
+    <string name="app_name">Mystiverse</string>
+    <string name="label_star">星座</string>
+    <string name="label_parnter">配对</string>
+    <string name="label_luck">运势</string>
+    <string name="label_me">我的</string>
+    <string name="man">男生 :</string>
+    <string name="woman">女生 :</string>
+    <string name="parnter_info">分别选择双方星座，点击配对分析即可。</string>
+    <string name="parnter_btn_prize">每日抽奖</string>
+    <string name="parnter_btn_analysis">开始配对分析</string>
+
+    <string name="about_app">关于应用</string>
+    <string name="function">功能介绍</string>
+    <string name="update">更新日志</string>
+    <string name="feedback">反馈问题</string>
+
+    <string name="mouse">属鼠的人聪明伶俐，具有很强的洞察力，总是能留心别人忽视的细节，善于洞悉人心和捕捉机会，具有很强的环境适应能力和应变能力。“鼠”字头上顶着一个“臼”，意为“屡遭打击，总是击而不破，打而不尽”，属鼠的人虽然遭受打击，却能随机应变，具有顽强的生命力，终有一天会转运翻身，苦尽甘来。如果属鼠的人能懂得知足常乐，克服贪念，对人对事学会宽容大度，人生之路将会顺风顺水。</string>
+    <string name="cattle">属牛的人诚实稳重，从不相信不劳而获，不管如何困苦，总是一步一个脚印踏踏实实做事，不冒险不投机取巧。年轻时稳扎稳打建立起来的事业，到了中年以后会一帆风顺，步步高升。“横眉冷对千夫指，俯首甘为孺子牛”，属牛的人具有强烈的正义感、责任心，好打抱不平，厌恶城府深、心眼多、虚伪做作的人，重情重义，只要是认定的朋友，必定倾心以待。如果属牛的人懂得灵活变通，听取他人的意见，不钻牛角尖，事业发展会更加得心应手。</string>
+    <string name="tiger">属虎的人刚毅顽强，雄心万丈，具有非常强大的自信心，喜欢冒险和挑战，遇到多大的困难也绝不低头，不达目的决不罢休。虎是山林之王，属虎的人天生自带领袖气场，具有王者的霸气，富有一副侠义心肠，好锄强扶弱，为弱小撑腰，但受了伤假装坚强，躲在无人的地方独自疗伤。如果属虎的人学会与他人沟通协作，遇事于众人商量，不独断专行，避免树敌，事业会更上一层楼，并赢得众人的拥戴。</string>
+    <string name="rabbit">属兔的人具有敏锐的直觉，对人的内心洞察入微，看人看事的眼光很准。举止文雅，温柔善良，有一颗纯朴的心，总是善意地对待身边的人。在中国神话中，兔是月中精灵，陪伴着嫦娥，月圆之夜在桂花树下捣长生不老药，因而兔也是长寿的象征。属兔的人很懂浪漫，内心向往安宁静好的生活。如果属兔的人能坚持初心，善待他人，积善成德，好运会源源不断，一生会过得清闲飘逸，衣禄丰足。</string>
+    <string name="dragon">属龙的人有高尚的理想和强烈的进取心，目光高远，胆识气魄胜于常人，不喜欢在琐事烂事上纠缠不休，更不喜欢搬弄是非，为人坦荡真诚，讨厌卑鄙虚伪的行径。龙是天之骄子，得上天眷顾，属龙的人福气满身运势佳，必会苦尽甘来，美满幸福。如果属龙的人能怀有一颗仁慈的心，宽厚待人有度量，人生将会步入光辉的大道，余生平安顺遂，后福不断。</string>
+    <string name="snake">属蛇的人天生神秘，将喜怒哀乐都隐藏在心中，好恶不言于表，喜怒不形于色，沉着稳重，能够临危不乱，冷静应对各种境遇。蛇在民间又被称为“小龙”，属蛇的人天生聪慧，思想深邃，不甘平庸，慢慢积蓄着力量，一旦时机成熟，“小龙”便会化为“真龙”，颇有“金麟岂是池中物，一遇风云便化龙“的意味。如果属蛇的人能少些疑虑猜忌，凡事坦白相对，待人处事宽宏大度，会少受许多风霜，好运源源不断。</string>
+    <string name="horse">属马的人满腔热血，为人洒脱豪爽，有一副悲天悯人的心肠，总是替他人着想，喜欢帮助他人，凡事都自己承受，向往自由自在、无拘无束的生活。俗话说：“人中吕布，马中赤兔”，古人将杰出的人才称为“千里马”，属马的人集才华与勇气于一身，若能坚持理想，不忘初心，定能得遇伯乐，“七星高挂银河外，天上人间任驰骋”。如果属马的人能戒骄戒躁，沉稳处事，谦虚低调，不但有贵人相助，运势也会顺风顺水，遇事都能迎刃而解。</string>
+    <string name="sheep">属羊的人心地纯洁善良，温柔体贴，不爱出风头，外柔而内刚，内心有一股强大的生命力和意志力。“羊”字的甲骨文，上面是两个羊角，意为“人人”，指对人人有益。在中国文化里，羊是最和顺美好的动物，造福于人。属羊的人个性温和，且具舍己成仁的胸怀，受上天的眷顾，一生没有大灾大难。“害人之心不可有，防人之心不可无”，属羊的人要学会保护自己，带眼识人，不被心怀不轨的人利用。</string>
+    <string name="monkey">属猴的人性格活泼好动，灵巧多才，脑筋转得快，机智过人，且具有侠义心肠，爱打抱不平，常常替他人考虑，人缘颇好。“猴”与“侯”同音，从唐、宋起，猴便是吉祥、显贵的象征，年画中常常画一只小猴骑在大猴身上，寓意“辈辈封侯”。属猴的人命里藏金，一生好运不断，贵气横溢。如果属猴的人能改掉急躁的脾气，逆境时忍耐，顺境时收敛，看淡得失，尽心随缘，一生将会过得幸福快乐，富贵无忧。</string>
+    <string name="chicken">属鸡的人坦白直率，心里想什么嘴里就说什么，头脑灵活，心思细腻，勤劳善良，有责任感并且非常顾家。鸡是司晨的动物，“雄鸡一鸣天下白”，鸡在天亮之时便会鸣叫，所以古人认为鸡有预见的能力。鸡年出生的人常常有先见之明，能抢占先机，赢得主动权。如果属鸡的人能培养自己的耐心，踏踏实实走好人生的每一步，前途将会无限光明。</string>
+    <string name="dog">属狗的人具有灵敏的洞察力，重人情讲道义有正义感，坦荡无心机，慷慨大方，具有很强的责任心，对待亲人朋友都有情有义。在古代，黑夜来临，狗看家守夜，是人最忠诚可靠的朋友。狗年出生的人既灵敏又忠诚，能够得到贵人的赏识，平步青云。如果属狗的人能不拘泥于成规，为人处世学会灵活变通，不盲目执着，人生将会春风得意，通达顺利。</string>
+    <string name="pig">属猪的人淳朴善良，为人随和，不拘小节，不与人斤斤计较，乐观豁达，对朋友真诚，对家人无微不至地关怀。“家”字，宝盖头下一只猪，在古人看来，家中有猪，有了一定的生活保障，才能称为一个“家”，因而猪也寓意富足、有福。猪年出生的人福气深厚，丰衣足食。如果属猪的人能有自己的主见，学会拒绝，不贪图安逸享受，多行善事，定会福泽深厚，一生福报享之不尽。</string>
+
+
+    <string name="aquarius">水瓶座（1月20日-2月18日）：水瓶座强调了创新和智慧，你们总是有着前瞻性和大局观，对于救赎世界的想象能够产生启迪。你们也非常富有思想性和独立性，能够为你们周围的人带来非常好的影响。</string>
+    <string name="pisces">双鱼座（2月19日-3月20日）：双鱼座代表了感性和同情心，你们非常敏感和温柔，总是能够感知他人的情感和感受。你们有着非常好的想象力和创造力，总是深陷于自己的世界之中。</string>
+    <string name="aries">白羊座（3月21日-4月19日）：这个星座代表着热情和勇气，你们充满活力和热情，总是善于带领他人。你们是天生的领袖和冒险家，在生活中乐观向上，勇往直前。</string>
+    <string name="taurus">金牛座（4月20日-5月20日）：金牛座是一种深思熟虑的星座，他们对生活质量的要求很高，有一定的规划和计划能力。他们信念坚定，脚踏实地，坚持不懈地追求自己的目标。</string>
+    <string name="gemini">双子座（5月21日-6月20日）：这个星座代表着好奇心和灵活性，他们拥有针锋相对的才华，能够以非常聪明的方式为他人和自己解决问题。他们总是充满了新奇的想法和创意，具有非常好的沟通能力。</string>
+    <string name="cancer">巨蟹座（6月21日-7月22日）：巨蟹座表达了一个人温柔、爱心、关心他人的一面，他们乐于帮助他人，关心他人的感受和需要。同时，他们也非常注重家庭和亲密关系，在人际交往中表现出温暖和安全感。</string>
+    <string name="leo">狮子座（7月23日-8月22日）：狮子座向我们展示了一个自信、热情和魅力的一面，他们总是充满了自信，有强烈的掌控欲和领导力。他们也很忠诚和保护他们爱的人和事物。</string>
+    <string name="virgo">处女座（8月23日-9月22日）：处女座强调了细节和完美主义，他们对细节非常敏感和挑剔，在工作和生活中都能做到很严谨。同时，他们也很注重健康和金钱的管理。</string>
+    <string name="libra">天秤座（9月23日-10月22日）：天秤座追求平衡和和谐，在人际交往中常常表现得十分温和和善良。他们非常热爱美和艺术，而且也有着挑战自我和追求公正的一面。</string>
+    <string name="scorpio">天蝎座（10月23日-11月21日）：天蝎座强调了神秘和深度，他们充满了神秘和独特的吸引力，神秘感和强烈的个性是他们的标志。他们也非常敏感和直观，够独立又能深谙人心。</string>
+    <string name="sagittarius">射手座（11月22日-12月21日）：射手座代表着自由和冒险，他们善于探索自己和外界的世界，他们有很强的好奇心和求知欲。他们总是积极向上、充满热情，追求着更好的自我。</string>
+    <string name="capricornus">摩羯座（12月22日-1月19日）：摩羯座向我们展示了一个实际、实用和专业的一面，他们具有非常好的组织和管理能力，很懂得团队合作和自我调整。他们非常有野心和自信，有着强烈的成功欲望。</string>
+
+    <string name="lorem_ipsum">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
+        volutpat, dolor id interdum ullamcorper, risus dolor egestas lectus, sit amet mattis purus
+        dui nec risus. Maecenas non sodales nisi, vel dictum dolor. Class aptent taciti sociosqu ad
+        litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse blandit eleifend
+        diam, vel rutrum tellus vulputate quis. Aliquam eget libero aliquet, imperdiet nisl a,
+        ornare ex. Sed rhoncus est ut libero porta lobortis. Fusce in dictum tellus.\n\n
+        Suspendisse interdum ornare ante. Aliquam nec cursus lorem. Morbi id magna felis. Vivamus
+        egestas, est a condimentum egestas, turpis nisl iaculis ipsum, in dictum tellus dolor sed
+        neque. Morbi tellus erat, dapibus ut sem a, iaculis tincidunt dui. Interdum et malesuada
+        fames ac ante ipsum primis in faucibus. Curabitur et eros porttitor, ultricies urna vitae,
+        molestie nibh. Phasellus at commodo eros, non aliquet metus. Sed maximus nisl nec dolor
+        bibendum, vel congue leo egestas.\n\n
+        Sed interdum tortor nibh, in sagittis risus mollis quis. Curabitur mi odio, condimentum sit
+        amet auctor at, mollis non turpis. Nullam pretium libero vestibulum, finibus orci vel,
+        molestie quam. Fusce blandit tincidunt nulla, quis sollicitudin libero facilisis et. Integer
+        interdum nunc ligula, et fermentum metus hendrerit id. Vestibulum lectus felis, dictum at
+        lacinia sit amet, tristique id quam. Cras eu consequat dui. Suspendisse sodales nunc ligula,
+        in lobortis sem porta sed. Integer id ultrices magna, in luctus elit. Sed a pellentesque
+        est.\n\n
+        Aenean nunc velit, lacinia sed dolor sed, ultrices viverra nulla. Etiam a venenatis nibh.
+        Morbi laoreet, tortor sed facilisis varius, nibh orci rhoncus nulla, id elementum leo dui
+        non lorem. Nam mollis ipsum quis auctor varius. Quisque elementum eu libero sed commodo. In
+        eros nisl, imperdiet vel imperdiet et, scelerisque a mauris. Pellentesque varius ex nunc,
+        quis imperdiet eros placerat ac. Duis finibus orci et est auctor tincidunt. Sed non viverra
+        ipsum. Nunc quis augue egestas, cursus lorem at, molestie sem. Morbi a consectetur ipsum, a
+        placerat diam. Etiam vulputate dignissim convallis. Integer faucibus mauris sit amet finibus
+        convallis.\n\n
+        Phasellus in aliquet mi. Pellentesque habitant morbi tristique senectus et netus et
+        malesuada fames ac turpis egestas. In volutpat arcu ut felis sagittis, in finibus massa
+        gravida. Pellentesque id tellus orci. Integer dictum, lorem sed efficitur ullamcorper,
+        libero justo consectetur ipsum, in mollis nisl ex sed nisl. Donec maximus ullamcorper
+        sodales. Praesent bibendum rhoncus tellus nec feugiat. In a ornare nulla. Donec rhoncus
+        libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus
+        vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
+    </string>
+    <string name="des_mbti">MBTI全称Myers-Briggs Type Indicator，是一种迫选型、自我报告式的性格评估工具，用以衡量和描述人们在获取信息、作出决策、对待生活等方面的心理活动规律和性格类型。它以瑞士心理学家Carl Jung的性格理论为基础，由美国的Katherine C Briggs和Isabel Briggs Myers母女共同研制开发。\"</string>
+    <string name="title_mbti">MBTI测试</string>
+    <string name="url_mbti">https://www.16personalities.com/ch/%E4%BA%BA%E6%A0%BC%E6%B5%8B%E8%AF%95</string>
+    <string name="des_depression">抑郁症是一种常见精神疾患，患者心情郁闷，丧失兴趣或享受感，产生负罪感，或自尊心不足，睡眠和食欲紊乱，身体疲倦，注意力不易集中。SDS抑郁自评量表（Self-Rating Depression Scale, SDS）由William W.K.Zung于1965年编制，美国教育卫生部推荐用于精神药理学研究的量表之一，是目前国际上最为常用的标准抑郁症心理测试题。</string>
+    <string name="title_depression">抑郁症自评量表（SDS）</string>
+    <string name="url_depression">http://wap.shenduliaojie.com/doquestion/themewap.ashx?tid=232916&amp;sn=23121908124008N2GOTW&amp;lid=0&amp;sldeid=0&amp;ishavedo=0&amp;uid=waphome&amp;istest=0</string>
+    <string name="des_love">缘分天注定，要谈几次爱恋才能找到自己的意中人？森林中有个小公园，角落处有一张四个人坐的小长椅，现在没有人坐在上面，你去公园绕了一圈，一个小时候返回原处。这时候你看小长椅上的情景是怎样的，按照自己习惯的想法，想像一下，爱情测试会通过潜意识的想法，测试出你需要恋爱几次才能找到意中人。</string>
+    <string name="title_love">恋爱几次才能找你的意中人</string>
+    <string name="url_love">http://wap.shenduliaojie.com/doquestion/themewap.ashx?tid=171&amp;n=23121908194908QB7XLW&amp;lid=0&amp;sldeid=0&amp;ishavedo=0&amp;uid=&amp;istest=0</string>
+    <string name="des_crush">想知道你周围有人在暗恋你吗？不用猜，不用想，做一套爱情心理测试就可以一目了然。测字其实也是一种卜卦，请依照现在的直觉选一个字，来预测一下有没有人最近在暗恋自己，以“实、在、难、"四字中任选一字，进行这个爱情小测试，测一下自己被暗恋的状况吧。</string>
+    <string name="title_crush">暗恋测试</string>
+    <string name="url_crush">http://wap.shenduliaojie.com/doquestion/themewap.ashx?tid=174&amp;sn=231219082728081IFG73&amp;lid=0&amp;sldeid=0&amp;ishavedo=0&amp;uid=&amp;istest=0</string>
+    <string name="title_sex">性取向测试</string>
+    <string name="des_sex">伟大的灵魂都是雌雄同体的。哈佛大学性别倾向测试帮你来识别。此测验可以测出你的大脑较偏阳性，还是阴性，结果可了解你的大脑男性荷尔蒙的存量。记住答题时不要进行太多考虑，完全按直觉行事。</string>
+    <string name="url_sex">http://wap.shenduliaojie.com/doquestion/themewap.ashx?tid=2267&amp;sn=231219082926089QWPRF&amp;lid=0&amp;sldeid=0&amp;ishavedo=0&amp;uid=waphome&amp;istest=0</string>
+    <string name="title_waifu">你命中的二次元老婆</string>
+    <string name="des_waifu">这个测试将为您揭晓，如果您是一个二次元的居民，哪位女主角是您可能会娶的妻子！</string>
+    <string name="url_waifu">shindanmaker.com/1075116</string>
+    <string name="title_"></string>
+    <string name="des_"></string>
+    <string name="url_"></string>
+
+</resources>

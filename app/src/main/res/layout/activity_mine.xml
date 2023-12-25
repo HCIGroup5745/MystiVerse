@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MineActivity">
+
+    <TextView
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/icon_back"
+        android:drawablePadding="10dp"
+        android:text="编辑档案"
+        android:textSize="20sp" />
+
+    <com.xuexiang.xui.widget.imageview.RadiusImageView
+        android:id="@+id/img"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/back"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/icon"
+        app:riv_corner_radius="90dp" />
+
+    <LinearLayout
+        android:id="@+id/ll1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_constellation"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="4dp"
+            android:text="太阳摩羯"
+            android:textColor="#EBB9C4"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="15dp"
+            android:background="@drawable/bg_constellation"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="4dp"
+            android:text="上升白羊"
+            android:textColor="#EBB9C4"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_constellation"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="4dp"
+            android:text="月亮巨蟹"
+            android:textColor="#EBB9C4"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll_nike_name"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/ll1"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="45dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="昵称"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"></TextView>
+
+        <TextView
+            android:id="@+id/nickname"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="right"
+
+            android:layout_height="wrap_content"></TextView>
+     <ImageView
+         android:layout_width="30dp"
+         android:src="@drawable/baseline_navigate_next_24"
+         android:layout_height="30dp"></ImageView>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/ll_birthday"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/ll_nike_name"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+
+
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="45dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="出生日期"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"></TextView>
+
+        <TextView
+            android:id="@+id/birth"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="right"
+
+            android:layout_height="wrap_content"></TextView>
+        <ImageView
+            android:layout_width="30dp"
+            android:src="@drawable/baseline_navigate_next_24"
+            android:layout_height="30dp"></ImageView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_address"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/ll_birthday"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+
+
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="45dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="出生地"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"></TextView>
+
+        <TextView
+            android:id="@+id/address"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="right"
+
+            android:layout_height="wrap_content"></TextView>
+        <ImageView
+            android:layout_width="30dp"
+            android:src="@drawable/baseline_navigate_next_24"
+            android:layout_height="30dp"></ImageView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_now_address"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/ll_address"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+
+
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="45dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="现居地"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"></TextView>
+
+        <TextView
+            android:id="@+id/now_address"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="right"
+
+            android:layout_height="wrap_content"></TextView>
+        <ImageView
+            android:layout_width="30dp"
+            android:src="@drawable/baseline_navigate_next_24"
+            android:layout_height="30dp"></ImageView>
+    </LinearLayout>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/to_luck"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll_now_address"
+        android:layout_marginTop="40dp"
+        android:textSize="18sp"
+        android:layout_marginHorizontal="20dp"
+        android:text="星座测试"/>
+</RelativeLayout>

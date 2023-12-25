@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".PyschTest"
+            android:exported="false" />
+        <activity
+            android:name=".Chat"
+            android:exported="false" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true" />
+
+        <service
+            android:name=".MyService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity
+            android:name=".util.willucome"
+            android:exported="false" />
+        <activity
+            android:name=".RecordActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SettingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LuckActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MineActivity"
+            android:exported="false"
+            android:theme="@style/CityPickerTheme" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".loginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".registerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".util.welcome"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".viewer.constellation.home.GuideActivity" />
+        <activity
+            android:name=".viewer.constellation.home.WelcomeActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".viewer.constellation.luckfrag.LuckAnalysisActivity" />
+        <activity android:name=".viewer.constellation.parnterfrag.ParnterAnalysisActivity" />
+        <activity android:name=".viewer.constellation.starfrag.StarAnalysisActivity" />
+        <activity android:name=".viewer.constellation.MainActivityViewer" />
+        <activity
+            android:name="shengxiao.shengxiao"
+            android:exported="false" />
+        <activity
+            android:name="shengxiao.shengxiaosecond"
+            android:exported="false"
+            android:label="生肖查询结果界面" />
+        <activity
+            android:name="xingzuo.xingzuo"
+            android:exported="false" />
+        <activity
+            android:name="xingzuo.xingzuosecond"
+            android:exported="false"
+            android:label="星座查询结果界面" />
+    </application>
+
+</manifest>
